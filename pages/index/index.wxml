@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<view class="contain">
+  <image class='avatar' src="/static/images/logo.jpg"></image>
+  <text class='userName'>{{msg}}</text>
+  <view class='goStudy' catchtap="toLogs">
+    <text>hello world</text>
+  </view>
+</view>
